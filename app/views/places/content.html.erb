@@ -1,0 +1,96 @@
+
+<div class="main posts-new">
+  <div class="container">
+      
+     <h1 class="page-header">Spotify Search</h1>
+        <%= form_tag artists_path, method: "get", html: { class: "form" } do %>
+     <div class="form-group col-xs-4">
+       <%= text_field_tag(:artist_name, "", placeholder: "Enter artist name", class: "form-control") %>
+     </div>
+     <%= submit_tag "Search", class: "btn btn-primary" %>
+    <% end %>
+      
+      <% if @place.id===1%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/3yTJgudSLreR8AvjeaKGEP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===2%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/1j3UX4IjAxaGJoVMnAYjjV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===3%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/7uKeyM2gyVFu6r1S4tx9XA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===4%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/1ktEG7xaKHF6FQKHv2mmhv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===5%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/2vLZHViswRbNmXd3URpVyf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===6%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/7s3XECK9UXuBjrOqYhbRAL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===7%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/5pXybpqRVZyMZTILBsTBvY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===8%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/0LJhhvWlf8Uk8J50RYO4lz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===9%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/1u6CAoTpLtynd9Gh7eZi7x" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===10%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/32yzBXYZG1EjTv6Va7Qd86" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===11%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/0x4aMALKCPVhj4W3UGHOFx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===12%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/5tphT0daAJi4dqZjdyePn6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===13%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/0aiv4QkqsYVHN31nGDmurj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===14%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/5TuX9DHtGelA9URHtpJK6g" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===15%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/5E26AbGUHZ36prQbxMgvHv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===16%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/3443SvhqBXSGl0U2ZpCpb6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===17%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/34rOdEwlfKcpEFAvVFHXwZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===18%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/3CeYW0DOO7S616Vqsur8ux" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===19%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/5QHjXHvHcCqS2YSIzQ3Te1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===20%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/4LguSgXrAwfSq3vtlacEeT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===21%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/7Gzo3ScVJw5Qi6o5T3m7Sx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===22%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/4n25Nw5KV0sXXS8hbbtoeo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%elsif @place.id===23%>
+    <iframe src="https://open.spotify.com/embed/user/martinyuki/playlist/13wahBCLsYTbU2k3vtKh5z" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <%end%>
+    
+    <% @posts.each do |post| %>
+      <div class="posts-index-item">
+        <div class="post-left">
+          <img src="<%= "/#{post.user.image_name}" %>">
+        </div>
+        <div class="post-right">
+          <div class="post-user-name">
+            <%=post.user.name %>
+          </div>
+          <%=post.content%>
+        </div>
+      </div>
+    <% end %>
+    
+    <h1 class="form-heading">投稿する</h1>
+    
+    
+    <%= form_tag("/places/#{@place.id}/create") do %>
+      <div class="form">
+        <div class="form-body">
+          <% @post.errors.full_messages.each do |message| %>
+            <div class="form-error">
+              <%= message %>
+              
+            </div>
+          <% end %>
+          
+          <textarea name="content"><%= @post.content %></textarea>
+          <input type="submit" value="投稿">
+        </div>
+      </div>
+    <% end %>
+    
+  </div>
+</div>
+
